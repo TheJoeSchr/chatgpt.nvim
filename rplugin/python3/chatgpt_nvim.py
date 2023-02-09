@@ -305,7 +305,7 @@ class Plugin:
         self.editor.chat.close()
 
     @neovim.command(
-        'ChatGPT',
+        'chatcli',
         nargs='*',
     )
     def chat(self, args):
